@@ -7,7 +7,9 @@
 
 my_string = str('Ни 4его не понятно, но очень интересно')
 
-print (len (my_string))
+string_way = len (my_string)
+
+print (str('Строка "my_string" имеет длинну ') +  str(string_way)+ (' символов'))
 
 print (my_string .upper())
 print (my_string .lower())
